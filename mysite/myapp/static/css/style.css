@@ -1,0 +1,43 @@
+.image{
+    margin-left: 45px;
+}
+
+.title {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-left: 50px;
+}  
+
+.color {
+    background: rgb(224, 224, 224);
+}
+
+.song{
+    margin-left: 20px;
+}
+
+.vvv {
+    margin-left: 20px;
+    
+    
+}
+
+.log {
+    margin-left: 20px;
+    font-size: 13pt;
+    color: rgb(59, 59, 59);
+
+}
+
+.pos {
+    margin-top: 405px;
+}
+
+.login {
+    text-align: center;
+    border: 4px solid rgb(255, 196, 0);
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+{% extends 'song_create.html' %}
+
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+  <h2>Регистрация</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Зарегистрироваться</button>
+    <br>
+    <br>
+    <p>Если вы хотите <a href="{% url 'login' %}">войти</a></p>
+  </form>
+{% endblock %}
